@@ -1,0 +1,55 @@
+let mapleader = " "
+
+" 基础键位映射
+" esc 使用jk
+inoremap jj <esc>
+
+set noai
+
+" 映射idea常用快捷键
+" 重命名
+nnoremap <leader>r :action RenameElement<CR>
+" 格式化当前文件
+nnoremap <leader>l :action ReformatCode<CR><esc>
+" quick java doc
+nnoremap <leader>q :action QuickJavaDoc<CR>
+
+
+nnoremap <leader>c :action Tree-selectNext<CR>
+
+" 插件模拟
+" surround
+set surround
+" multiple-cursors
+set multiple-cursors
+" easyMotion 模拟，额外依赖插件：AceJump,IdeaVim-EasyMotion
+set easymotion
+" 注释插件模拟
+set commentary
+set argtextobj
+set sneak
+set paste
+set clipboard=unnamed
+set NERDTree
+set ideamarks
+
+Plug 'easyMotion/vim-easyMotion'
+" 取消NERDTree
+" map <leader>n :NERDTreeToggle<CR>
+
+map <leader>r <Action>(UsageView.Rerun)
+map <leader>i <Action>(GotoImplementation)
+map <leader>d <Action>(Compare.SameVersion)
+map <leader>z <Action>(ToggleDistractionFreeMode)
+map <leader>b <Action>(ToggleLineBreakpoint)
+map <leader>s <Action>(Android.SyncProject)
+map <leader>f <Action>(FindInPath)
+map <leader>n <Action>(NewGroup)
+map <leader>o <Action>(GotoDeclaration)
+map ,f <Action>(Find)
+map H ^
+map L $
+
+
+nnoremap <leader>t  :action ActivateTerminalToolWindow<CR>
+nnoremap <c-t> :action Terminal.OpenInTerminal<CR>
