@@ -1,0 +1,88 @@
+{
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.editor.untitled.hint": "hidden",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "GitBash": {
+            "path": "D:\\1SoftwareSetup\\Git\\bin\\bash.exe"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Ubuntu-18.04 (WSL)",
+    "terminal.explorerKind": "external",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.handleKeys": {
+        "<C-p>": false
+    },
+    "vim.insertModeKeyBindings": [
+        {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["leader", "k"],
+            "after": [":e index.html"]
+        }
+    ],
+    "vim.sneak": true,
+    "vim.surround": true,
+     "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": ["#8FBCBB", "#434C5E"],
+    "vim.statusBarColors.insert": "#BF616A",
+    "vim.statusBarColors.visual": "#B48EAD",
+    "vim.statusBarColors.visualline": "#B48EAD",
+    "vim.statusBarColors.visualblock": "#A3BE8C",
+    "vim.statusBarColors.replace": "#D08770",
+    "vim.statusBarColors.commandlineinprogress": "#007ACC",
+    "vim.statusBarColors.searchinprogressmode": "#007ACC",
+    "vim.statusBarColors.easymotionmode": "#007ACC",
+    "vim.statusBarColors.easymotioninputmode": "#007ACC",
+    "vim.statusBarColors.surroundinputmode": "#007ACC",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#8FBCBB",
+        "statusBar.noFolderBackground": "#8FBCBB",
+        "statusBar.debuggingBackground": "#8FBCBB",
+        "statusBar.foreground": "#434C5E",
+        "statusBar.debuggingForeground": "#434C5E"
+    },
+
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.cursorBlinking": "solid",
+  "editor.lineNumbers": "relative",
+"vscode-neovim.neovimExecutablePaths.win32": "E:\\1Softwares\\zips\\nvim-win64\\Neovim\\bin\\nvim.exe",
+"vscode-neovim.neovimInitVimPaths.win32": "C:\\Users\\lenovo\\AppData\\Local\\nvim\\init.vim",
+"vscode-neovim.textDecorationsAtTop": true,
+"workbench.list.automaticKeyboardNavigation": false,
+"editor.scrollbar.verticalScrollbarSize": 2,
+"editor.scrollbar.vertical": "hidden",
+"workbench.editor.titleScrollbarSizing": "large",
+"workbench.list.keyboardNavigation": "filter",
+"workbench.colorTheme": "Darcula",
+"terminal.integrated.tabs.enabled": false,
+"files.autoSave": "onFocusChange"
+
+
+}
